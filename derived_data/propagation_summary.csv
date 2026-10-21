@@ -1,0 +1,10 @@
+failure_class,recovery_strategy,mean_radius,affected_nodes,invalid_writes,amplification
+Transient unavailability,Retry,0.000,1.000,0.000,0.000
+Transient unavailability,Local replay,0.000,1.000,0.000,0.000
+Transient unavailability,Suffix restart,0.000,1.000,0.000,0.000
+Missing prerequisite state,Retry,1.000,2.000,0.231,1.000
+Missing prerequisite state,Local replay,0.000,1.000,0.231,0.000
+Missing prerequisite state,Suffix restart,0.000,1.000,0.231,0.000
+Persistent-state contamination,Retry,0.538,1.538,0.462,0.538
+Persistent-state contamination,Local replay,0.000,1.000,0.462,0.000
+Persistent-state contamination,Suffix restart,0.000,1.000,0.462,0.000
