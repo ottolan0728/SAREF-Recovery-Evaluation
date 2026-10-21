@@ -1,0 +1,5 @@
+available_actions,recoverable_episodes,total_episodes,coverage,oracle_mean_cost
+Retry only,13,39,0.333,0.250
+Retry + Local replay,39,39,1.000,0.472
+Retry + Suffix restart,39,39,1.000,0.639
+Retry + Local replay + Suffix restart,39,39,1.000,0.472
