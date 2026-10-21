@@ -12,20 +12,37 @@ ORCID: https://orcid.org/0000-0003-1611-4259
 
 This repository contains redistributable derived data and evaluation artifacts supporting the SAREF study. It is intended to make the reported recovery comparisons auditable without redistributing benchmark assets that remain subject to the upstream InterCode terms.
 
-## Repository contents
+## Public contents
 
-- `derived_data/`: derived recovery results and summaries
-- `metadata/`: task/recovery registries and experiment metadata
-- `integrity/`: reproducibility and integrity documentation
-- `docs/`: setup and manuscript-to-artifact notes
+### derived_data
+- `condition_level_results.csv`
+- `fixed_strategy_summary.csv`
+- `propagation_summary.csv`
+- `action_set_ablation.csv`
+- `leave_one_failure_class_out.csv`
+
+### metadata
+- `failure_recovery_taxonomy.csv`
+
+### integrity
+- `CLAIM_BOUNDARY.md`
+
+### documentation
+- `REPRODUCIBILITY_SCOPE.md`
+- `MANUSCRIPT_ARTIFACT_MAP.md`
 
 ## Benchmark dependency
 
-The study uses the public InterCode benchmark. InterCode assets are not duplicated here when redistribution is restricted by upstream terms. Users should obtain the benchmark from its official project/repository and follow its licensing and setup instructions.
+The study uses the public InterCode benchmark:
+https://github.com/princeton-nlp/intercode
+
+InterCode assets are not duplicated here when redistribution is restricted by upstream terms. Users should obtain the benchmark from its official repository and follow its licensing and setup instructions.
 
 ## Reproducibility boundary
 
-This public package is intended to reproduce the reported derived analyses and manuscript display items from redistributable artifacts. It does not package every upstream benchmark asset or environment image.
+The public package is intended to reproduce the reported derived analyses and manuscript display items from redistributable artifacts. It does not package every upstream benchmark asset or environment image.
+
+The reported study uses 13 retained InterCode Bash tasks, 39 controlled failure episodes, and 117 matched recovery branches. The files in this repository are derived summaries of that frozen experiment. They should not be interpreted as a population sample of deployed AI-agent failures.
 
 ## Funding
 
