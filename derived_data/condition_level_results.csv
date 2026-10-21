@@ -1,0 +1,10 @@
+failure_class,recovery_strategy,n,task_success_rate,state_validity_rate,recovery_success_rate,recovered_count,mean_cost
+Transient unavailability,Retry,13,1.000,1.000,1.000,13,0.250
+Transient unavailability,Local replay,13,1.000,1.000,1.000,13,0.583
+Transient unavailability,Suffix restart,13,1.000,1.000,1.000,13,0.833
+Missing prerequisite state,Retry,13,0.000,0.000,0.000,0,0.250
+Missing prerequisite state,Local replay,13,1.000,1.000,1.000,13,0.583
+Missing prerequisite state,Suffix restart,13,1.000,1.000,1.000,13,0.833
+Persistent-state contamination,Retry,13,0.462,0.000,0.000,0,0.250
+Persistent-state contamination,Local replay,13,1.000,1.000,1.000,13,0.583
+Persistent-state contamination,Suffix restart,13,1.000,1.000,1.000,13,0.833
