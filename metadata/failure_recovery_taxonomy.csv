@@ -1,0 +1,7 @@
+category,name,state_implication,recovery_interpretation
+failure,Transient unavailability,Persistent state remains valid,Retry can be sufficient because no state reconstruction is required
+failure,Missing prerequisite state,Required persistent state is absent,Recovery must reconstruct the missing dependency from an earlier valid state
+failure,Persistent-state contamination,Invalid state survives ordinary retry,Recovery must explicitly restore a valid state rather than continue from the contaminated artifact
+recovery,Retry,No explicit rollback,Narrowest intervention
+recovery,Local replay,Restore nearest safe checkpoint,Reconstructs local state while limiting re-execution scope
+recovery,Suffix restart,Restore broader checkpoint,Conservative recovery with broader re-execution
