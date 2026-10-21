@@ -1,0 +1,5 @@
+omitted_failure_class,retry_coverage,retry_mean_regret,local_replay_coverage,local_replay_mean_regret,suffix_restart_coverage,suffix_restart_mean_regret
+None,13/39,1.500,39/39,0.111,39/39,0.361
+Transient unavailability,0/26,2.250,26/26,0.000,26/26,0.250
+Missing prerequisite state,13/26,1.125,26/26,0.167,26/26,0.417
+Persistent-state contamination,13/26,1.125,26/26,0.167,26/26,0.417
