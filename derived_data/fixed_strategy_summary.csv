@@ -1,0 +1,4 @@
+strategy,recovered,total,success_rate,mean_cost,mean_regret,worst_regret,oracle_selections
+Retry,13,39,0.333,0.250,1.500,2.250,13
+Local replay,39,39,1.000,0.583,0.111,0.333,26
+Suffix restart,39,39,1.000,0.833,0.361,0.583,0
