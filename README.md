@@ -23,9 +23,13 @@ This repository contains redistributable derived data and evaluation artifacts s
 
 ### metadata
 - `failure_recovery_taxonomy.csv`
+- `task_registry_summary.csv`
 
 ### integrity
 - `CLAIM_BOUNDARY.md`
+- `R1A_CLOSURE_REPORT.md`
+- `R1A_CLOSURE_MANIFEST.json`
+- `audit_archive_hashes.csv`
 
 ### documentation
 - `REPRODUCIBILITY_SCOPE.md`
