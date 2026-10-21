@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "closure_date": "2026-09-29",
+  "gate": "R1-A",
+  "status": "CLOSED_STOP",
+  "learned_recovery_controller_justified": false,
+  "further_experiments_run_at_closure": 0,
+  "auto_advance": false,
+  "benchmark": "InterCode Bash / NL2Bash filesystem 1",
+  "failure_types": [
+    "F1",
+    "F3",
+    "F5"
+  ],
+  "recovery_actions": [
+    "A1",
+    "A2",
+    "A3"
+  ],
+  "task_ids": [
+    0,
+    1,
+    3,
+    4,
+    5,
+    8,
+    20,
+    22,
+    27,
+    34,
+    35,
+    36,
+    40
+  ],
+  "task_count": 13,
+  "episode_count": 39,
+  "branch_count": 117,
+  "oracle_distribution": {
+    "A1": 13,
+    "A2": 26,
+    "A3": 0
+  },
+  "cost_formula": "(tool_calls + replayed_steps + rollback_steps) / 12",
+  "failed_regret": "2 + incurred cost",
+  "upstream_commit": "c3e46d827cfc9d4c704ec078f7abf9f41e3191d8",
+  "bash_image_digest": "sha256:2afb68a44c47ea152181eea28c9421e37eeec1d07869239ee37462e8664689ec",
+  "full_audit_archives": [
+    {
+      "path": "RELIABLE_AGENT_R1A_ATTEMPT2_AUDIT_PACKAGE_20260922.zip",
+      "bytes": 301970818,
+      "sha256": "98f87962602cf7ed4317feb2d05e2c91ae8850bddd3b2aa5213b5bca3902ecce"
+    },
+    {
+      "path": "RELIABLE_AGENT_R1A_ATTEMPT3_AUDIT_PACKAGE_20260922.zip",
+      "bytes": 328874561,
+      "sha256": "865f24b3559f964c6be05cf15acdcb677aadcfa5a31fe8eba5539a7c9c1bdfe8"
+    },
+    {
+      "path": "RELIABLE_AGENT_R1A_STOP_PACKAGE_20260920.zip",
+      "bytes": 45706,
+      "sha256": "846163104ec203e2a79ccd9715e18048c689468ab1ff9266a266f0f162a9612e"
+    }
+  ]
+}
